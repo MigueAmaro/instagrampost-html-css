@@ -1,0 +1,90 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    height: 100vh;
+    font-family: 'Roboto' ,sans-serif;
+}
+.main {
+    width: 460px;
+    min-height: 600px;
+    border-radius: 10px;
+    background: white;
+    padding: 18px 25px 10px 25px;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.userBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    width: 100%;
+}
+.userBar div{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.profilePic {
+    background-image: url("./fileProfile.jpg");
+    background-position: center;
+    background-size: cover;
+    justify-content: flex-start;
+    width: 60px;
+    height: 60px;
+    border-radius: 35px;
+    margin-left: 5px;
+    margin-right: 8px;
+}
+.nameLoc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.nameLoc h3{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+}
+.nameLoc p{
+    font-size: 0.75em;
+    margin: 0;
+    padding: 0;
+}
+.content{
+    background-image: url("./File.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 360px;
+    margin: 5px 0 15px;
+}
+
+.iconBar{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    font-size: 24px;
+}
+
+.iconBar div{
+    order: 2;
+    margin-left: auto;
+   /* border: 1px solid red;*/
+    align-self: flex-end;
+}
+
+
+
+
